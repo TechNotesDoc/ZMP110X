@@ -19,7 +19,7 @@
    :maxdepth: 3
    :caption: 快速入门
 
-   ./Doc/*/*.md
+   ./Doc/01.快速入门/快速入门.md
  
 
 
