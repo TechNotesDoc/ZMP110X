@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'F1C1/200S文档中心\n qq群:913307302'
+project = 'ZMP110x文档中心\n'
 copyright = '2020，@xyan_m@163.com'
 author = 'FlyRobot'
 
