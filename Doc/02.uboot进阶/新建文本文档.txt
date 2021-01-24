@@ -1,0 +1,6 @@
+#define CONFIG_DEFAULT_MTDPARTS \
+	"mtdparts=spi0.0:512K@0x0(UBOOT),4K@0x80000(ENV),4K@0x81000(ENVBK),\
+	128K@0x82000(DTB),3072K@0xa2000(KERNEL),376K@0x3a2000(LOGO),\
+	3968K@0x400000(ROOTFS),128K@0x7e0000(WORK)"
+
+setenv bootargs console=${console} root=${nfs_root} nfsroot=${serverip}:${nfs_rootfs},v3,tcp ip=${ipaddr}:${serverip}:${gatewayip} init=${init} mem=${memsize} memsize=${memsize} ${mtdparts}
