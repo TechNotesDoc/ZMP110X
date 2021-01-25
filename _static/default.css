@@ -419,7 +419,7 @@ footer,
     border-radius: 50px;
     border: 2px solid transparent;
     color: var(--body-color);
-    height: 36px;
+    height: 30px;
     padding: 6px 12px;
 }
 .wy-body-for-nav .search__outer__input:focus {
