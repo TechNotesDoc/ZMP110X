@@ -1005,3 +1005,14 @@ kbd, .kbd {
 .wy-menu.wy-menu-vertical::-webkit-scrollbar-thumb:active {
     background-color: var(--navbar-scrollbar-active-color);
 }
+/* .wy-nav-content {
+    max-width: 100% !important;
+}
+
+.wy-nav-side {
+    max-width:100%;
+}
+
+.wy-menu.wy-menu-vertical {
+    max-width:100%;
+} */
