@@ -17,13 +17,10 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: 快速入门
-
-   ./Doc/01.快速入门/快速入门.md
-   ./Doc/02.uboot进阶/启动方式设置.md
- 
-
-
+   :caption: ZMP1107
+   :glob:
+   
+   ./Doc/*/*
    ./README.md
    
 
